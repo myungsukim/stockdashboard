@@ -226,4 +226,4 @@ if not df.empty:
                     card.markdown(f"<h4 style='text-align: center; margin-top:-20px; {color_css}'>{arrow} {df[col_name].iloc[-1]:.2f}{unit}</h4>", unsafe_allow_html=True)
 
 else:
-    st.error("데이터 동기화에 실패했습니다.")ss
+    st.error("데이터 동기화에 실패했습니다.")
